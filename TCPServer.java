@@ -16,6 +16,7 @@ class TCPServer {
             clintSentence = inFromClient.readLine();
             capitalizedSentence = clintSentence.toUpperCase() + '\r';
             outToClient.writeBytes(capitalizedSentence);
+            // welcomeSocket.close(); // This is not needed, because the server is always listening.
         }
     }
 }
