@@ -1,6 +1,8 @@
 import java.io.*;
 import java.net.*;
 
+// Server that accepts a string from a client, converts it to upper case, and returns it to the client.
+
 class TCPServer {
     public static void main(String argv[]) throws Exception
     {

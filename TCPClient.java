@@ -1,6 +1,8 @@
 import java.io.*;
 import java.net.*;
 
+// Client that sends a string to a server, and prints the modified string returned by the server.
+
 class TCPClient {
     public static void main(String arg[]) throws Exception
     {
