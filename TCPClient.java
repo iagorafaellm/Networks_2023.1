@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/* Authors: João Pedro Silveira and Iago Rafael Martins */
+/* Authors: João Pedro Silveira and Iago Rafael Lucas Martins */
 class TCPClient {
     public static void main(String arg[]) throws Exception
     {

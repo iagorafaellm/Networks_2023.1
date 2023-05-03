@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/* Authors: João Pedro Silveira and Iago Rafael Martins */
+/* Authors: João Pedro Silveira and Iago Rafael Lucas Martins */
 class TCPServer {
     private static Map<String, String> dictionary = new HashMap<String, String>() {{
         put("rede", "network");
