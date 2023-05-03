@@ -19,6 +19,7 @@ public class UDPClient {
 
     /**
      * Asks the user for input and sends it for translation on server on localhost using UDP.
+     * All requests and responses are sent and received on the same datagram socket.
      */
     private void translationService() {
         Scanner scanner = new Scanner(System.in);

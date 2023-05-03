@@ -36,7 +36,8 @@ public class UDPServer {
 
     // Methods
     /**
-     * Handles requests for translation from clients sent through UDP.
+     * Handles requests for translation from clients sent through UDP
+     * All requests are received and responded on the same datagram socket.
      */
     private void translationService() {
 
