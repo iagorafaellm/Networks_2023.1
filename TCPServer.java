@@ -46,6 +46,7 @@ class TCPServer {
 
                     // Read message sent by the client to the server
                     String messageFromClient = bufferedReader.readLine();
+                    messageFromClient = messageFromClient.toLowerCase(); // Case insensitive
                     System.out.println("Message from client: " + messageFromClient);
 
                     // Send confirmation that the message was received
