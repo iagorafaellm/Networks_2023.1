@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/* Authors: João Pedro Silveira and Iago Rafael Martins */
+/* Authors: João Pedro Silveira and Iago Rafael Lucas Martins */
 class TCPServer {
     private static Map<String, String> dictionary = new HashMap<String, String>() {{
         put("rede", "network");
@@ -46,6 +46,7 @@ class TCPServer {
 
                     // Read message sent by the client to the server
                     String messageFromClient = bufferedReader.readLine();
+                    messageFromClient = messageFromClient.toLowerCase(); // Case insensitive
                     System.out.println("Message from client: " + messageFromClient);
 
                     // Send confirmation that the message was received
