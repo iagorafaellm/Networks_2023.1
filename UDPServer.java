@@ -18,14 +18,14 @@ public class UDPServer {
     private static HashMap<String, String> dictionary = new HashMap<String, String>() {{
         put("rede", "network");
         put("roteador", "router");
-        put("firewall", "firewall");
+        put("comutador", "switch");
         put("protocolo", "protocol");
-        put("ip", "IP");
-        put("tcp", "TCP");
-        put("udp", "UDP");
+        put("hospedeiro", "host");
+        put("pacote", "package");
+        put("largura de banda", "bandwidth");
         put("servidor", "server");
         put("cliente", "client");
-        put("gateway", "gateway");
+        put("porta de entrada", "gateway");
     }};
 
     // Constructors
