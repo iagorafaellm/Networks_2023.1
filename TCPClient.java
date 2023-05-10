@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /* Authors: João Pedro Silveira and Iago Rafael Martins */
 class TCPClient {
-
+    
     public static void main(String arg[]) throws Exception
     {
         Socket clientSocket = null;
